@@ -45,7 +45,7 @@ This study utilized shotgun metagenomics to comprehensively characterize the bac
 - Functional annotation using **Prokka**
      - Annotate genes and predict protein function
 - Antimicrobial Resistance gene Identification
-     - Search for AMR genes in the anotated data
+     - Search for AMR genes in the annotated data
 - Data visualization using **Krona** 
 
 ### A summary report of the workflow is documented on the [Wiki page] with the following sections;
