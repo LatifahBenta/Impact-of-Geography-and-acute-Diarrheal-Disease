@@ -1,5 +1,5 @@
 ## AMR BIOINFORMATICS TRAINING MINIPROJECT
-As part of the AMR Bioinformatics training at KEMRI; CMR ,this group has been  working on a mini-project to reproduce an assigned published Metagenomics paper.The details can be found here.
+As part of the AMR Bioinformatics training at KEMRI; CMR ,this group has been  working on a mini-project to reproduce an assigned published Metagenomics paper.The details can be found [here.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7781581/)
 
 
 ### Group Members
@@ -40,7 +40,7 @@ This study utilized shotgun metagenomics to comprehensively characterize the bac
      - Align trimmed reads to a reference database to asign taxonomic labels
      - Use **kraken2** for taxonomic profiling
      - Visualize using **Krona**
--  Assembly using **SPAdes**
+-  Assembly using **Megahit**
      - Assemble reads into contigs
 - Functional annotation using **Prokka**
      - Annotate genes and predict protein function
@@ -48,5 +48,4 @@ This study utilized shotgun metagenomics to comprehensively characterize the bac
      - Search for AMR genes in the annotated data
 - Data visualization using **Krona** 
 
-### A summary report of the workflow is documented on the [Wiki page] with the following sections;
-1.
+### A summary report of the workflow is documented on the [Wiki page]()
