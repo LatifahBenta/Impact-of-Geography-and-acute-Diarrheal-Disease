@@ -48,4 +48,4 @@ This study utilized shotgun metagenomics to comprehensively characterize the bac
      - Search for AMR genes in the annotated data
 - Data visualization using **Krona** 
 
-### A summary report of the workflow is documented on the [Wiki page]()
+### A summary report of the workflow is documented on the [Wiki page](https://github.com/LatifahBenta/Impact-of-Geography-and-acute-Diarrheal-Disease/wiki)
