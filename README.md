@@ -30,19 +30,19 @@ This study utilized shotgun metagenomics to comprehensively characterize the bac
 ### A Summary of the Steps followed in our miniproject;
 - Acquisition of the raw data
      - We made a text file containing the specific accession numbers.It can be found [here](https://github.com/LatifahBenta/Miniproject-Metagenomics/blob/main/Raw%20Data/SRA_accessions.txt)
-     - **prefetch** -To download data from the SRA database.
+     - [**prefetch**]( https://github.com/ncbi/sra-tools) -To download data from the SRA database.
      - **fasterq-dump**-To convert SRA format data into standard FASTQ format.
 - Pre-processing of the raw data
-     - Quality check using **Fastqc** and **Multiqc**
-     - Trimming of the reads using **Trimmomatic**
+     - Quality check using [**Fastqc**](https://github.com/s-andrews/FastQC) and [**Multiqc**](https://github.com/ewels/MultiQC)
+     - Trimming of the reads using [**Trimmomatic**](https://github.com/usadellab/Trimmomatic)
      - Quality check after trimming using **Fastqc** and **Multiqc**
--  Read alignment and Taxonomic assignment using **kraken2** 
+-  Read alignment and Taxonomic assignment using [**kraken2**](https://github.com/DerrickWood/kraken2) 
      - Align trimmed reads to a reference database to asign taxonomic labels
      - Use **kraken2** for taxonomic profiling
      - Visualize using **Krona**
--  Assembly using **Megahit**
+-  Assembly using [**Megahit**](https://github.com/voutcn/megahit)
      - Assemble reads into contigs
-- Functional annotation using **Prokka**
+- Functional annotation using [**Prokka**](https://github.com/tseemann/prokka)
      - Annotate genes and predict protein function
 - Antimicrobial Resistance gene Identification
      - Search for AMR genes in the annotated data
